@@ -74,7 +74,8 @@ aprendizajes
 se aprendieron nuevas formas de integrar una api y un consumo entre el backend y el front que se pueden consumir desde una misma herramienta sin depender de un bd externa o una configuracion compleja 
 
 
+los env tambien fuero almacenado conforme a los requisitos solicitados
 
 
-
+ya se monto la funcion remota tambien para poder hacer pruebas usar el link https://message-feed-frontend.onrender.com 
 
