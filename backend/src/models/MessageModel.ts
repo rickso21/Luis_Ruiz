@@ -35,7 +35,7 @@ export class MessageModel {
       );
 
       if (existingLike.rows.length > 0) {
-        console.log(`⚠️ Usuario ${userId} ya dio like al mensaje ${messageId}`);
+      //  console.log(`⚠️ Usuario ${userId} ya dio like al mensaje ${messageId}`);
         return false;
       }
 
@@ -51,7 +51,7 @@ export class MessageModel {
         [messageId]
       );
 
-      console.log(`✅ Like registrado: mensaje ${messageId} por usuario ${userId}`);
+     // console.log(`✅ Like registrado: mensaje ${messageId} por usuario ${userId}`);
       return true;
     } catch (error) {
       console.error('Error en likeMessage:', error);
